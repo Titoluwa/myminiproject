@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input test</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <!-- <img id="img1" onclick="enterData()" src="" alt="upload"> -->
+    <section id="board">
+        <h3>Calculator</h3>
+        <div id="display">
+        &nbsp;
+        </div>
+        <div id="numbers">
+            <button id="1" value="1" onclick="printe(id)">1</button>
+            <button id="2" value="2" onclick="printe(id)">2</button>
+            <button id="3" value="3" onclick="printe(id)">3</button>
+            <button id="4" value="4" onclick="printe(id)">4</button>
+            <button id="5" value="5" onclick="printe(id)">5</button>
+            <button id="6" value="6" onclick="printe(id)">6</button>
+            <button id="7" value="7" onclick="printe(id)">7</button>
+            <button id="8" value="8" onclick="printe(id)">8</button>
+            <button id="9" value="9" onclick="printe(id)">9</button>
+            <button id="0" value="0" onclick="printe(id)">0</button>
+            <button id="." value="." onclick="printe(id)">.</button>
+        </div>
+        <div id="operation">
+            <button id="+" value="+" onclick="printe(id)">+</button>
+            <button id="-" value="-" onclick="printe(id)">-</button>
+            <button id="*" value="*" onclick="printe(id)">*</button>
+            <button id="/" value="/" onclick="printe(id)">/</button>
+            <button id="%" value="%" onclick="printe(id)">%</button>
+        </div>
+        <div>
+            <button value="clear" id="clear" onclick="document.getElementById('display').innerHTML = ' '">
+                Clear</button>
+            <!-- <button value="" id="backspace" onclick="backspace()">back</button> -->
+            <button value="=" id='equalto' onclick="solve()">=</button>
+        </div>
+    </section>
+    <!-- <input type="file" style="display:none;" onclick="focus(this)" id="file" name="file"> -->
+    <!-- <section>
+        <h2>Simple Calculator</h2>
+        <form id="calculator" >
+            <label for="result">Answer; &nbsp; </label>
+            <p id="result" name="result">0</p>
+            <label for="operation">Operation</label>
+            <select name="operation" id="operation">
+                <option value="+">Add</option>
+                <option value="-">Subtract</option>
+                <option value="/">Divide</option>
+                <option value="*">Multiply</option>
+                <option value="%">Modulus divsion</option>
+            </select>
+            <br>
+            <label for="num1">Enter the first number: </label>
+            <input type="text" name="num1" id="num1">
+            <br>
+            <label for="num2">Enter the second number: </label>
+            <input type="text" name="num2" id="num2">
+            <br>
+            <label for="submit"> &nbsp;</label>
+        </form>
+        <button type="" onclick="calculate()">Calculate</button>
+    </section> -->
+    <script src="input.js"></script>
+</body>
+</html>
